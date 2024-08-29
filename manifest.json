@@ -1,0 +1,16 @@
+{
+	"name" : "v7test.application",
+	"version" : "1.0",
+	"type" : "ipaas",
+	"volumesFrom" : [
+		"bwplugin/bw.salesforce"
+	],
+	"endpoints" : [
+		{
+			"type" : "private",
+			"pingable" : true,
+			"protocol" : "http",
+			"port" : "7777"
+		}
+	]
+}
